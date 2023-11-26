@@ -1,0 +1,23 @@
+POST http://localhost:5000/Breakfast
+Content-Type: application/json
+
+{
+    "name": "Vegan Sunshine",
+    "description": "Vegan is everything! Let's eat healthy and cheap food wherever you are.",
+    "startDateTime": "2023-11-25T08:00:00",
+    "endDateTime": "2023-11-25T08:00:00",
+    "savory": [
+        "Oatmeal",
+        "Avocado Toast",
+        "Omelette",
+        "Salad"
+    ],
+    "sweet": [
+        "Cookie"
+    ]
+}
+
+
+###
+
+GET https://localhost:7140/Breakfast/349ef641-b87a-4c0f-ad48-d2d34a2c6a7a
